@@ -10,14 +10,16 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{asset('app.js')}}" defer></script>
+    <script src="http://chatvue-4a4hp.ondigitalocean.app/js/app.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{asset('app.css')}}" rel="stylesheet">
+    
+    <link href="https://chatvue-4a4hp.ondigitalocean.app/css/app.css" rel="stylesheet">
+    
 </head>
 <body>
     <div id="app">
