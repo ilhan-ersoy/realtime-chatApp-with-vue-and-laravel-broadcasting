@@ -1,6 +1,6 @@
 <template>
     <div class="conversation">
-        <h1>{{contact ? contact.name : 'Sohbet Seçiniz.'}}</h1>
+        <h1>{{contact ? contact.name : 'Yarrrrak.'}}</h1>
         <MessageScreen :contact="contact" :messages="messages"></MessageScreen>
         <SendMessage @send="sendMessage"></SendMessage>
 
