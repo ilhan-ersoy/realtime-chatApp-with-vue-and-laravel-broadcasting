@@ -41,6 +41,20 @@ export default {
 
 <style lang="scss" scoped>
 
+.conversation{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        padding: 12px;
+        border-bottom: dashed 1px #5a8c85;
+        margin: 0;
+        font-size: 30px;
+    }
+}
+
 
 
 </style>

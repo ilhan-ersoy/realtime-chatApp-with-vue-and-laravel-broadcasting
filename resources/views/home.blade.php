@@ -5,9 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header">Messenger App via sensei </div>
+                <div class="card-header" style="font-size: 15px">Messenger App via İLHAN ERSOY </div>
 
-                <div class="card-body" id="app">
+                <div class="card-body" id="app" style="padding:0">
                     <chat-app :user="{{current_user()}}"></chat-app>
                 </div>
             </div>

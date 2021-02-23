@@ -33,3 +33,15 @@ export default {
 }
 
 </script>
+
+
+<style lang="scss" scoped>
+    .composer textarea {
+    width: 97%;
+    margin: 10px;
+    resize: none;
+    border-radius: 18px;
+    border: 1px solid #9b9696;
+    padding: 8px;
+    }
+</style>

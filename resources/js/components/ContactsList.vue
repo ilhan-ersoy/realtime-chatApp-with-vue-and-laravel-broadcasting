@@ -78,6 +78,10 @@
                 }
             }
         }
+        .selected {
+            background: #f0d4df;
+        }
+
 
 
     }
