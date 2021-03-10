@@ -8,7 +8,8 @@
                 <div class="card-header" style="font-size: 15px">Messenger App via İLHAN ERSOY </div>
 
                 <div class="card-body" id="app" style="padding:0">
-                    <chat-app :user="{{current_user()}}"></chat-app>
+                    <chat-app :user={{auth()->user()}}></chat-app>
+
                 </div>
             </div>
         </div>
